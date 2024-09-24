@@ -1,0 +1,18 @@
+<h1>{{ title }}</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let school of School">
+      <td>{{ school.id }}</td>
+      <td>{{ school.name }}</td>
+      <td>{{ school.location }}</td>
+    </tr>
+  </tbody>
+</table>
